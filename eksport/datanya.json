@@ -1,0 +1,13 @@
+							{
+							"chart":{
+								"caption":"Pendapatan Bulanan",
+								"subCaption":"Warkop Tekom",
+								"xAxisName":"Bulan",
+								"yAxisName":"Pendapatan"
+							},
+							"data":[
+								{"label":"Jan","value":"100"},
+								{"label":"Feb","value":"150"},
+								{"label":"Mar","value":"120"}
+							]
+						}
