@@ -1,0 +1,38 @@
+<html>
+ <head>
+  <script type="text/javascript" src="pustaka_FSC/js/fusioncharts.js"></script>
+   <script type="text/javascript" src="pustaka_FSC/js/themes/fusioncharts.theme.fint.js"></script>
+   <script type="text/javascript">
+     FusionCharts.ready( function(){
+	   var G1 = new FusionCharts({
+	    "type": "pie3d",
+		"renderAt": "lokasi",
+		"width":"800",
+		"height":"500",
+		"dataFormat":"json",
+		"dataSource":{
+		  "chart":{
+		     "caption": "Monthly Revenue",
+			 "subCaption":"INF Mart",
+			 "xAxisName":"month",
+			 "yAxisName":"Revenues",
+			 "theme":"fint"
+		  },
+		  "data":[
+		    {"label":"Jan", "value":"100"},
+			{"label":"Feb", "value":"200"},
+			{"label":"Mar", "value":"300"},
+			{"label":"April", "value":"400"},
+		  ]
+		}
+	   }
+	   );
+	   G1.render();
+	 }
+	 )
+   </script>
+ </head>
+ <body>
+   <div id="lokasi">di sini</div>
+ </body>
+</html>
