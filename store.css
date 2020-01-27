@@ -1,0 +1,255 @@
+* {
+	margin:0px auto;
+	font-family: "Calibri";
+}
+
+.banner{
+	
+}
+
+#head {
+	position: fixed;
+	/*padding-top:10px;*/
+	padding-bottom:15px;
+}
+
+#head li {
+	display:inline;
+	margin-left:20px;
+}
+
+#head a {
+	text-decoration:none;
+	color:black;
+	size:20px;
+}
+
+#head li:hover a{
+	color:white;
+}
+
+#head li:hover{
+	border-bottom:solid 3px white;
+}
+
+.container, #head{
+	width:1280px;
+	margin:auto;
+}
+body {
+	background-image: url('img/background.png');
+	background-attachment:fixed;
+	background-size: 100% 100%
+}
+
+#body{
+	padding:100px;
+	padding-top: 280px;
+	background-color:rgba(255,255,255,0.8);
+}
+
+#body h1 {
+	text-align:center;
+	padding-bottom:50px;
+}
+
+#TLap {
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+
+#Tdata {
+	/*border-top: solid 2px black;
+	border-bottom: solid 2px black;
+	border-left: solid 2px black;
+	border-right: solid 2px black;
+	border-radius: 5px;*/
+	background-color: rgba(179,225,172,0.6);
+	margin-bottom: 25px;
+}
+
+.Ttable {
+	/*border-bottom: solid 2px black;*/
+	text-align: center;
+}
+
+/*#Tdata td {
+	margin: auto;
+	padding-right: 5px;
+	padding-left: 2px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}*/
+
+/*#Tdata tr {
+	border-bottom: solid 2px black;
+}*/
+
+.nomor {
+	text-align: left;
+	font-size: 15px;
+}
+
+.atas {
+	/*float:left;*/
+}
+
+.bawah {
+	/*float:right;
+	text-align:right;
+	padding-right:25px;*/
+	padding-top:20px;
+	padding-bottom: 20px;
+	background-color: rgb(179,225,172);
+	border-bottom: solid 2px black;
+	border-top: solid 2px black;
+}
+
+#foot{
+	padding:25px;
+	text-align:center;
+	font-size:15px;
+	background-image:url('img/footer-perpus.png');
+	background-size: 1280px 100px;
+	position: relative;
+}
+
+#clock{
+	font-size: 18px;
+	padding-bottom: 10px;
+	float: right;
+	padding-right: 50px;
+		padding-top:20px;
+	padding-bottom: 20px;
+}
+
+#tgl{
+	font-size: 18px;
+	float: right;
+	margin-right: 50px;
+	padding-top:20px;
+	padding-bottom: 20px;
+}
+
+#tbl_pengunjung{
+	padding-left: 50px;
+	font-size: 20px;
+}
+
+#tbl_pengunjung input, textarea, select{
+	font-size: 20px;
+}
+
+#button_ok{
+	padding-top: 20px;
+	padding-left: 625px;
+}
+
+#button_ok input{
+	font-size: 25px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+#button_ok input:hover{
+	font-size: 25px;
+	padding-right: 20px;
+	padding-left: 20px;
+	background-color: rgba(10,100,255,1);
+	border: blue solid 2px;
+	color: white;
+}
+
+.count {
+	font-size: 20px;
+}
+
+.chart_perbulan{
+	width: 50%;
+}
+
+.chart_pertahun{
+	width: 50%;
+}
+
+#center_tahun{
+	font-size: 20px;
+}
+
+.btn_excel{
+	margin-left: 920px;
+	font-size: 18px;
+	background-color: rgba(0,0,0,0);
+	border: green solid 2px;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.btn_excel:hover{
+	font-size: 18px;
+	color: white;
+	background-color: green;
+	border: green solid 2px;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.btn_pdf{
+	margin-left: 920px;
+	font-size: 18px;
+	background-color: rgba(0,0,0,0);
+	border: red solid 2px;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.btn_pdf:hover{
+	font-size: 18px;
+	color: white;
+	background-color: rgba(255,0,0,1);
+	border: red solid 2px;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.btn_word{
+	margin-left: 920px;
+	font-size: 18px;
+	background-color: rgba(0,0,0,0);
+	border: blue solid 2px;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.btn_word:hover{
+	font-size: 18px;
+	color: white;
+	background-color: blue;
+	border: blue solid 2px;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+
+
+#btn_cari:hover{
+	background-color: rgba(10,100,255,1);
+	border: blue solid 2px;
+	color: white;
+}
+
+#btn_masuk input:hover{
+	background-color: rgba(10,100,255,1);
+	border: blue solid 2px;
+	color: white;
+}
+
+#btn_batal input:hover{
+	background-color: rgba(255,100,100,1);
+	border: red solid 2px;
+	color: white;
+}
+
+#cari_table td, input{
+	font-size: 18px;
+}
